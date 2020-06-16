@@ -4,7 +4,7 @@ After sorting 2 arrays of integers, **A** and **B**, merge **B** into **A** as o
 
 **Details**:
 * The number of initialized elements in **A** and **B** are **m** and **n** respectively.
-* You may assume that **A** has enough space to store all elements of **B** (you'll not have to resize **A**), that is, the size of **A** is at lease **m+n**.
+* You may assume that **A** has enough space to store all elements of **B** (you'll not have to resize **A**), that is, the size of **A** is at least **m+n**.
 
 ### Example
 
