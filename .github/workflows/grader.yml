@@ -17,3 +17,7 @@ jobs:
       run: |
         cd 01
         for f in test_cases/*.txt; do python3 grader.py < "$f"; done
+    - name: Grade 02
+      run: |
+        cd 02
+        for f in test_cases/*.txt; do python3 grader.py < "$f"; done
