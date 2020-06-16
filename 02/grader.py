@@ -19,7 +19,7 @@ if __name__ == '__main__':
     test_case, want = read_test_case()
     sol = Solution()
     original_input = copy(test_case)
-    output = sol.sigma_transformation(test_case)
+    output = sol.sigma_transformation(test_case)  # pylint: disable=E1101
     if output != want:
         print("\t❌ Test case failed:")
         print("\t\tInput:", original_input)
